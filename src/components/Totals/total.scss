@@ -1,0 +1,62 @@
+@import '../../main.scss';
+
+.total-container{
+    background-color: $Verydarkcyan;
+    height: 90%;
+    width: 90%;
+    position: relative;
+    margin: auto;
+    border-radius: 1em;
+    text-align: center;
+}
+
+.total-amount{
+    padding:  0 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.total-total{
+    padding:  0 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.tip-total{
+    color: $Strongcyan;
+    font-size: xx-large;
+}
+
+.ta-container,.tt-container{
+    color: $White;
+    display: flex;
+    flex-direction: column;
+}
+
+.tt-container-sub{
+    font-size: small;
+    color: $Grayishcyan;
+}
+
+.reset-btn{
+    border: none;
+    background-color: $Darkgrayishcyan;
+    height: 3em;
+    width: 90%;
+    border-radius: 0.5em;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin: 2em 1.2em;
+
+    color: $Verydarkcyan ;
+
+    cursor: pointer;
+    font-family: 'Space Mono', monospace;
+    font-size: large;
+}

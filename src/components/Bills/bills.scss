@@ -1,0 +1,71 @@
+@import '../../main.scss';
+
+.bill-container{
+    padding: 2em;
+}
+.bill-title{
+    color: $Darkgrayishcyan;
+}
+.bill-input-container{
+    display: flex;
+    flex-direction: row;
+    height: 2.5em;
+    align-items: center;
+    color: $Grayishcyan;
+    margin: 0 1em;
+}
+.bill-input, input::placeholder {
+    width: 100%;
+    font-family: 'Space Mono', monospace;
+    font-size: large;
+    color: $Grayishcyan;
+    text-align: right;
+    border: none;
+}
+.bill-input:focus{
+    color: $Verydarkcyan;
+    border: 5px solid $Strongcyan;
+}
+
+
+.bill-tip-selection-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1em;
+}
+.tip{
+    background-color: $Verydarkcyan;
+    border: none;
+    height: 2em;
+    border-radius: 0.2em;
+    color: $White;
+    font-size: x-large;
+    font-family: 'Space Mono', monospace;
+    cursor: pointer;
+}
+.tip-custom{
+    color: $Grayishcyan;
+    font-size: x-large;
+    cursor: pointer;
+    text-align: center;
+    height: 2em;
+}
+
+.bill-people{
+    margin-top: 5em;
+}
+
+
+//errors
+
+.bill-error:focus{
+    color: $Verydarkcyan;
+    border: 5px solid red;
+}
+
+//active
+
+.active{
+    background-color: $Lightgrayishcyan;
+    color: $Verydarkcyan;
+}
